@@ -46,7 +46,6 @@ function controlloQuantitàeValori() {
     }
 }
 
-
 function Disappear() {
     spotNumber.innerText = "";
 }
@@ -61,7 +60,7 @@ function CicloDati(min, max) {
             clearInterval(clock);
             controlloQuantitàeValori();
         }
-    }, 3 * 1000);
+    }, 1 * 1000);
 }
 
 
